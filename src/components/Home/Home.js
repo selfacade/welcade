@@ -24,7 +24,9 @@ export default function Home() {
           Digital World
           <p className="desc">Welcome to the welcade</p>
         </div>
-        <aside className="home_video"></aside>
+        <aside className="home_video">
+        
+        </aside>
       </main>
     </div>
   );
