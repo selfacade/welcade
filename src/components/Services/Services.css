@@ -42,7 +42,8 @@
 
 .card {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   height: 50vh;
   width: 14vw;
   background: rgb(32, 205, 141);
@@ -78,17 +79,63 @@
 
 .small {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
   height: 250px;
   width: 225px;
   background: rgb(32, 205, 141);
   border-radius: 25px;
   padding: 2em 2em;
   font-family: "Nunito", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: rgb(255, 255, 255);
   text-transform: none;
   list-style-type: none;
+}
+
+.service_logo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25%;
+  height: 25%;
+}
+
+.DevTeam {
+  background-image: url(../../../public/assets/DevTeam.png);
+  background-size: contain;
+}
+
+.Web {
+  background-image: url(../../../public/assets/Web.png);
+}
+
+.App {
+  background-image: url(../../../public/assets/App.png);
+}
+
+.Business {
+  background-image: url(../../../public/assets/Business.png);
+}
+
+.Budget {
+  background-image: url(../../../public/assets/Budget.png);
+}
+
+.Domain {
+  background-image: url(../../../public/assets/Domain.png);
+}
+
+.Ecommerce {
+  background-image: url(../../../public/assets/Ecommerce.png);
+}
+
+.Support {
+  background-image: url(../../../public/assets/Support.png);
+}
+
+.Cloud {
+  background-image: url(../../../public/assets/Cloud.png);
 }
 
 /* website design according to Table & Ipad width */

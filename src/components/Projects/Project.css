@@ -122,6 +122,9 @@
   text-transform: none;
   list-style-type: none;
   border: 1px solid blue;
+  background-image: url(../../../public/assets/project3.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .project_card3 {
@@ -156,6 +159,9 @@
   text-transform: none;
   list-style-type: none;
   border: 1px solid blue;
+  background-image: url(../../../public/assets/project4.png);
+  background-position: center;
+  background-size: cover;
 }
 
 
