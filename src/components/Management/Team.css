@@ -1,0 +1,70 @@
+.team_container {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  z-index: 99;
+  background: linear-gradient(145deg, #0e747b, #118a93);
+}
+
+.divider_2 {
+  box-shadow: 0px -100px 350px 350px #172627;
+  width: 100%;
+  z-index: 99;
+}
+
+.team_title {
+  color: rgb(255, 255, 255);
+  font-family: "Nunito", sans-serif;
+  font-size: 25.3379px;
+  color: rgb(255, 255, 255);
+  line-height: 35px;
+  text-transform: none;
+  list-style-type: none;
+  border-left: 5px solid rgb(32, 205, 141);
+  border-radius: 6px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.team_image {
+    background-image: url(../../../public/assets/Team.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position:  center; */
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1062px) {
+    .team_container {
+      padding: 1em;
+    }
+  }
+
+@media (max-width: 913px) {
+    .team_container {
+      padding: 1em;
+    }
+
+    .team_image {
+        background-image: url(../../../public/assets/teamMobile.png);
+    }
+  }
+
+ 
+@media (max-width: 601px) {
+    .team_container {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 460px) {
+    .team_container {
+      padding: 1em;
+      height: 70vh;
+    }
+  }
+

@@ -10,7 +10,6 @@ export default function Project() {
 
   return (
     <div className="project_container">
-         <div className="divider_2"></div>
          <div className="project_title" data-aos="fade-right">Our Competed Projects</div>
          <div className="project_cards">
             <div className="project_card_1">
