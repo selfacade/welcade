@@ -14,6 +14,7 @@ export default function Home() {
       <nav className="navigation">
         <p data-aos="fade-right" className="home_header">
           <span style={{ color: "rgb(32, 205, 141)" }}>|</span>
+          <span className="home_logo"></span>
           <span> welcade</span>
         </p>
       </nav>

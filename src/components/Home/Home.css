@@ -46,6 +46,19 @@ body {
   line-height: 35px;
   text-transform: none;
   list-style-type: none;
+  background-image: url(../../../public/assets/minihome.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 5em 0;
+}
+
+.home_logo {
+  background-image: url(../../../public/assets/minihome.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 76px;
+  height: 76px;
 }
 
 .home_main {
