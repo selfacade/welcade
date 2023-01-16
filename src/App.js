@@ -5,6 +5,7 @@ import Services from "./components/Services/Services";
 import Products from "./components/Products/Product";
 import Team from "./components/Management/Team";
 import Projects from "./components/Projects/Project";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Products />
               <Team />
               <Projects />
+              <Contact />
             </>
           }
         ></Route>
