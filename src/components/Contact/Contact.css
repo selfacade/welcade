@@ -80,7 +80,7 @@ a:hover {
     height: 100%;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 821px) {
   .contact_container {
       flex-direction: column;
       justify-content: center;

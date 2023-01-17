@@ -50,6 +50,24 @@
 
     .team_image {
         background-image: url(../../../public/assets/teamMobile.png);
+        height: 100%;
+    }
+  }
+
+@media (max-width: 821px) {
+    .team_container {
+      padding: 1em;
+    }
+  }
+
+@media (max-width: 913px) {
+    .team_container {
+      padding: 1em;
+    }
+
+    .team_image {
+        background-image: url(../../../public/assets/teamMobile.png);
+        height: 100vh;
     }
   }
 
@@ -60,10 +78,23 @@
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 541px) {
+    .team_container {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 415px) {
+    .team_container {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 281px) {
     .team_container {
       padding: 1em;
       height: 70vh;
     }
+    
   }
 
