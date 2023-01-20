@@ -11,6 +11,9 @@
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* Hide scrollbar for IE, Edge and Firefox */
 
 body {
@@ -84,17 +87,38 @@ body {
 .desc {
   /* position: absolute; */
   font-family: "Nunito", sans-serif;
-  font-size: .4em;
-  color: rgb(23, 38, 39);
+  font-size: .35em;
+  color: rgb(141, 150, 151);
   line-height: 35px;
   letter-spacing: 0em;
   text-transform: none;
   list-style-type: none;
-  background-color: #20CD8D;
-  text-align: center;
   border-radius: 1rem;
   padding: 4px;
   margin-top: 20px;
+}
+
+.btn_contact {
+  background-color: #20CD8D;
+  padding: .8em 1.3em;
+  font-size: .25em;
+  border: none;
+  border-radius: 20px;
+  width: 8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.btn_pricing {
+  padding: .8em 1.3em;
+  font-size: .25em;
+  border: 1px solid #20CD8D;
+  background-color: transparent;
+  border-radius: 20px;
+  width: 8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  margin-left: 10px;
 }
 
 .home_video {

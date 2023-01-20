@@ -23,7 +23,9 @@ export default function Home() {
           Enter in
           <br />
           Digital World
-          <p className="desc">Welcome to the welcade</p>
+          <p className="desc">Get your own website to grow your<br />  business online</p>
+          <a href="#contact"><button className="btn_contact">Contact us</button></a>
+          <a href="#pricing"><button className="btn_pricing">Pricing</button></a>
         </div>
         <aside className="home_video">
         

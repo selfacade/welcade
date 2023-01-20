@@ -8,7 +8,7 @@ export default function Product() {
     AOS.init();
   }, [])
   return (
-    <div className="product_container">
+    <div id='pricing' className="product_container">
         <div className="product_title" data-aos="fade-right">Products we Made & Pricing</div>
         <div className="product_cards">
           <div className="product">
