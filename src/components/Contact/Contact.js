@@ -38,25 +38,27 @@ export default function Contact() {
           </div>
         </div>
         <aside className="ContactImage"></aside>
-        <Form
-          onSubmit={onSubmit}
-          validate={validate}
-          render={({ handleSubmit }) => (
+        {/* <Form
+          onSubmit={(formObj) => {
+            console.log(formObj);
+          }}
+        >
+          {({ handleSubmit }) => (
             <form onSubmit={handleSubmit}>
-              <h2>Simple Default Input</h2>
-              <div>
-                <label>First Name</label>
-                <Field
-                  name="firstName"
-                  component="input"
-                  placeholder="First Name"
-                />
-              </div>
-
+              <Field name="name">
+                {({ input }) => (
+                  <input placeholder="Name" type="text" {...input} />
+                )}
+              </Field>
+              <Field name="email">
+                {({ input }) => (
+                  <input placeholder="Email" type="email" {...input} />
+                )}
+              </Field>
               <button type="submit">Submit</button>
             </form>
           )}
-        />
+        </Form> */}
       </div>
     </main>
   );

@@ -29,7 +29,7 @@
     background-image: url(../../../public/assets/Team.png);
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-position:  center; */
+    background-position:  left;
     width: 100vw;
     height: 100vh;
     z-index: 99;
@@ -37,11 +37,13 @@
     margin-bottom: 20px;
 }
 
-@media (max-width: 1062px) {
+@media (max-width: 1282px) {
     .team_container {
       padding: 1em;
     }
   }
+
+
 
 @media (max-width: 913px) {
     .team_container {
@@ -51,6 +53,7 @@
     .team_image {
         background-image: url(../../../public/assets/teamMobile.png);
         height: 100%;
+        background-position: center;
     }
   }
 
@@ -67,7 +70,7 @@
 
     .team_image {
         background-image: url(../../../public/assets/teamMobile.png);
-        height: 100vh;
+        height: 57vh;
     }
   }
 
@@ -82,12 +85,22 @@
     .team_container {
         height: 100vh;
     }
+
+    .team_image {
+      background-image: url(../../../public/assets/teamMobile.png);
+      height: 90vh;
+  }
 }
 
 @media (max-width: 415px) {
     .team_container {
         height: 80vh;
     }
+
+    .team_image {
+      background-image: url(../../../public/assets/teamMobile.png);
+      height: 57vh;
+  }
 }
 
 @media (max-width: 281px) {
