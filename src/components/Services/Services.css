@@ -94,6 +94,7 @@
   color: rgb(255, 255, 255);
   text-transform: none;
   list-style-type: none;
+  margin: 4px 0;
 }
 
 .service_logo {

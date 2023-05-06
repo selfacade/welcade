@@ -43,25 +43,20 @@ body {
 }
 
 .home_header {
+  display: inline-flex;
   font-family: 'Nunito', sans-serif;
   font-size: 25.3379px;
   color: rgb(255, 255, 255);
   line-height: 35px;
   text-transform: none;
   list-style-type: none;
-  background-image: url(../../../public/assets/favicon_io/favicon.png);
+  background-image: url(../../../public/welcade.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 5em 0;
+  width: 100%;
 }
 
-.home_logo {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 76px;
-  height: 76px;
-}
 
 .home_main {
   height: 80vh;

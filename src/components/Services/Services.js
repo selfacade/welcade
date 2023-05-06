@@ -12,14 +12,14 @@ export default function Services() {
       <div className="divider"></div>
       <div className="services_cards">
         <div className="services_header">
-          <div data-aos="fade-left" className="services_title">
+          <p data-aos="fade-left" className="services_title">
             Our <br />
             servives
-          </div>
+          </p>
           {/* main card */}
           <div className="card">
             <div className="service_logo DevTeam"></div>
-            <span>Development Team</span>
+            <p>Development Team</p>
           </div>
         </div>
         {/* other cards  */}
@@ -28,37 +28,37 @@ export default function Services() {
           <div className="card_top">
             <div className="small" data-aos="fade-right">
               <div className="service_logo Web"></div>
-              <span>Website Development</span>
+              <p>Website Development</p>
             </div>
             <div className="small" data-aos="fade-left">
               <div className="service_logo Business"></div>
-              <span>Business Automation</span>
+              <p>Business Automation</p>
             </div>
             <div className="small" data-aos="fade-right">
               <div className="service_logo Budget"></div>
-              <span>Under Budget Price</span>
+              <p>Under Budget Price</p>
             </div>
             <div className="small" data-aos="fade-left">
               <div className="service_logo Cloud"></div>
-              <span>Cloud Management</span>
+              <p>Cloud Management</p>
             </div>
           </div>
           <div className="card_bottom">
             <div className="small" data-aos="fade-right">
               <div className="service_logo App"></div>
-              <span>Mobile / App Development</span>
+              <p>Mobile / App Development</p>
             </div>
             <div className="small" data-aos="fade-left">
               <div className="service_logo Ecommerce"></div>
-              <span>Ecommerce Development</span>
+              <p>Ecommerce Development</p>
             </div>
             <div className="small" data-aos="fade-right">
               <div className="service_logo Support"></div>
-              <span>App Support & Maintenance</span>
+              <p>App Support & Maintenance</p>
             </div>
             <div className="small" data-aos="fade-left">
               <div className="service_logo Domain"></div>
-              <span>Domain & Website Hosting</span>
+              <p>Domain & Website Hosting</p>
             </div>
           </div>
         </aside>

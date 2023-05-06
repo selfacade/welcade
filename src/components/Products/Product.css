@@ -83,15 +83,15 @@
 }
 
 .product1 {
-  background-image: url(../../../public/assets/product1.png);
+  background-image: url(../../../public/assets/welcade1.png);
 }
 
 .product2 {
-  background-image: url(../../../public/assets/product2.png);
+  background-image: url(../../../public/assets/welcade2.png);
 }
 
 .product3 {
-  background-image: url(../../../public/assets/product3.png);
+  background-image: url(../../../public/assets/welcade3.png);
 }
 
 @media (max-width: 460px) {
